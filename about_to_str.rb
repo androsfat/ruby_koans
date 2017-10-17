@@ -49,6 +49,6 @@ true
 
   def test_user_defined_code_can_check_for_to_str
     assert_equal false, acts_like_a_string?(CanNotBeTreatedAsString.new)
-    assert_equal truet,  acts_like_a_string?(CanBeTreatedAsString.new)
+    assert_equal true,  acts_like_a_string?(CanBeTreatedAsString.new)
   end
 end
